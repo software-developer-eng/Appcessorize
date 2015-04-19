@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/software-developer-eng/Appcessorize.git", :commit => "39faca2633ca1c57fc9a50b455f4615eb3352bed" }
+  s.source       = { :git => "https://github.com/software-developer-eng/Appcessorize.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
