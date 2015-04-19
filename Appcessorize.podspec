@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Appcessorize"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = ""
 
   s.description  = <<-DESC
