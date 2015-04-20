@@ -34,7 +34,7 @@ You're all set! See 'Integration' for steps to integrate into your app.
 
 ### Manual Installation
 
-1. [Download the repo](https://github.com/amani-mohammad/appcessorize-framework/archive/master.zip) from github
+1. [Download the repo](https://github.com/software-developer-eng/Appcessorize/archive/master.zip) from github
 
 2. Add `Appcessorize.bundle` and `Appcessorize.framework` to your project.
 
@@ -45,7 +45,7 @@ You're all set! See 'Integration' for steps to integrate into your app.
 
 5. That's it. You are now ready to integrate!
 
-Please report any issues [here](https://github.com/amani-mohammad/appcessorize-framework/issues)
+Please report any issues [here](https://github.com/software-developer-eng/Appcessorize/issues)
 
 
 ## Integration
@@ -73,5 +73,5 @@ Here is a sample code for doing this:
 
 ## Found a bug?
 
-You may report any issues with the framework or documentation [here](https://github.com/amani-mohammad/appcessorize-framework/issues)
+You may report any issues with the framework or documentation [here](https://github.com/software-developer-eng/Appcessorize/issues)
 
