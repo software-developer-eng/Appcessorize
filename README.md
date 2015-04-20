@@ -4,7 +4,7 @@
 
 Appcessorize is a simple library that lets users make their photos into phone cases. By integrating it in your application, your users will be able to get a real mobile case anywhere in the world. It is so easy: select images, add them to the case template, check out and **YOU ARE DONE!!**  
 
-**Current version:** 1.0
+**Current version:** 1.0.1
 
 
 ## Installation
