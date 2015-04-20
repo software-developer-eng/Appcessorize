@@ -68,7 +68,7 @@ Here is a sample code for doing this:
         [self presentViewController:controller animated:YES completion:NULL];
     }
     
-If you're stuck or need a starting point, check out our sample app. //add link to sample app here
+
 
 
 ## Found a bug?
