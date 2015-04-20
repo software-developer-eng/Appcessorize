@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "PaypalManager.h"
-
-@interface PaymentDetailsViewController : UIViewController <PaypalManagerDelegate, UITextFieldDelegate>
+#import "LTHMonthYearPickerView.h"
+#import "ParseManager.h"
+#import "Constant.h"
+#import "MBProgressHUD.h"
+#import "HomeViewController.h"
+#import "StripeManager.h"
+#import "CountryPicker.h"
+@interface PaymentDetailsViewController : UIViewController <PaypalManagerDelegate, UITextFieldDelegate, LTHMonthYearPickerViewDelegate, UIAlertViewDelegate, UIPickerViewDataSource, UIPickerViewDelegate, StripeManagerDelegate, CountryPickerDelegate>
 {
 //    NSMutableData *data;
 }
@@ -43,7 +49,11 @@
 @property (weak, nonatomic) IBOutlet UIImageView *streetIcon;
 @property (weak, nonatomic) IBOutlet UIImageView *calendarIcon;
 @property (weak, nonatomic) IBOutlet UIImageView *cardNumberIcon;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet CountryPicker *countryPicker;
 
+
+- (IBAction)expireDateButtonClicked:(id)sender;
 
 - (IBAction)continueButtonClicked:(id)sender;
 

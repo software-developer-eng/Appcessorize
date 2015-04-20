@@ -105,4 +105,38 @@
 #define kClientID @"173da78d74924c27a20663b0c2e92fb5"
 #define kRedirectURI @"http://www.nweave.com"
 
+
+//--------------------
+#define CASE_IMAGE_PRICE @"29.90"
+#define PRICE_CURRENCR_SIGN @" $"
+
+//--------------- Info Control pages --------
+#define FIRST_INFO_PAGE_TITLE @"First page"
+#define FIRST_INFO_PAGE_IMAGE @"info_screen_darg_and_drop_image"
+#define FIRST_INFO_PAGE_DESCRIPTION @"When you're happy with your case proceed to checkout and we'll make it and send it to you anywhere in the world for $29.99"
+#define SECOND_INFO_PAGE_TITLE @"Second page"
+#define SECOND_INFO_PAGE_IMAGE @"info_screen_darg_choose_templet_image"
+#define SECOND_INFO_PAGE_DESCRIPTION @"Drag and drop photos to create your perfect case"
+#define THIRD_INFO_PAGE_TITLE @"Third page"
+#define THIRD_INFO_PAGE_IMAGE @"info_screen_darg_edit_picture_place_image"
+#define THIRD_INFO_PAGE_DESCRIPTION @"You can resize your photos or change your template"
+#define K_TAB_INFO_VIEW_HEWIGHT_IPHONE 380
+#define K_TAB_INFO_VIEW_HEWIGHT_IPAD 554
+
+
+//------------------- Paypal
+#define PAYPAL_CLIENT_ID @"AdptXRCWl0ln7ePDMis1AWjwfIogMVn_4T6Z6SAMgwYn9Ynzk6O_fLGUi5f0"
+#define PAYPAL_CLIENT_SECRET @"EDAfOxC-yxsdjZ2O2jW7G7xa1UQLCLfFcQm1wVFthaDzYbUgE7ECmPqUW3SR"
+#define PAYPAL_BASE_URL @"https://api.sandbox.paypal.com"
+#define OAuth_request_url @"/v1/oauth2/token"
+#define Create_payment_url @"/v1/payments/payment"
+
+//____________________ Hud messages
+#define PAYPAL_HUD_LOADING_MESSAGE @"Processing..."
+
+
+//___________________ Date picker
+#define YEARS_NUMBER 50
+
+
 @end

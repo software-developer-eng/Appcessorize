@@ -14,8 +14,10 @@
 #import "DeviceData.h"
 #import "DeviceIconView.h"
 #import "CaseManager.h"
+#import "CustomPageControl.h"
+#import "CustomInfoPage.h" 
 
-@interface DeviceSelectionViewController : UIViewController <PopupDelegate, SwipeViewDataSource, SwipeViewDelegate, SwipeViewDataSource>
+@interface DeviceSelectionViewController : UIViewController <PopupDelegate, SwipeViewDataSource, SwipeViewDelegate, SwipeViewDataSource, InfoPageDelegate>
 
 
 @property (strong, nonatomic) FPPopoverController *popover;

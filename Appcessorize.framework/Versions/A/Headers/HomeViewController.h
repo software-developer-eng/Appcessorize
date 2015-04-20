@@ -14,7 +14,8 @@
 #import "Constant.h"
 #import "Utility.h"
 #import "DeviceSelectionViewController.h"
-
+#import "CustomPageControl.h"
+#import "HomeInfoPage.h"
 
 @interface HomeViewController : UIViewController
 
@@ -24,5 +25,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *makeYourCaseButton;
 
 - (IBAction)makeYourCaseButtonClicked:(id)sender;
+@property (weak, nonatomic) IBOutlet UIView *homeGalleryView;
 
 @end

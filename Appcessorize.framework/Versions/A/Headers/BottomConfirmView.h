@@ -24,6 +24,8 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *cancelButton;
 
+@property (weak, nonatomic) IBOutlet UILabel *title;
+
 - (IBAction)closeButtonClicked:(id)sender;
 - (IBAction)doneButtonClicked:(id)sender;
 
