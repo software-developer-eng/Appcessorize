@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'Appcessorize.framework'
   s.resources = 'Appcessorize.bundle'
 
-  s.frameworks = 'UIKit', 'Foundation', 'Social', 'CoreFoundation', 'MessageUI', 'SystemConfiguration', 'MobileCoreServices', 'CoreLocation'
+  s.frameworks = 'Social', 'MessageUI', 'SystemConfiguration', 'MobileCoreServices'
 end
