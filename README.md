@@ -50,7 +50,7 @@ Please report any issues [here](https://github.com/software-developer-eng/Appces
 
 ## Integration
 
-Integrating Appcessorize into your app is straightforward and easy. Just add `#import <Appcessorize/AppcessorizeNavigationController.h>` 
+Integrating Appcessorize into your app is straightforward and easy. Just add `#import <Appcessorize/Appcessorize.h>` 
 
 | File          | Description   |
 | :------------ | :------------ |
