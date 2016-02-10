@@ -11,7 +11,7 @@ Appcessorize is a simple library that lets users make their photos into phone ca
 
 Installing Appcessorize.framework is a quick and easy process. This may be done manually or via [cocoapods](http://cocoapods.org/)
 
-### Installing via Cocoapods (recommended)
+### Installing via CocoaPods (recommended)
 
 If you have already installed CocoaPods then you can skip this step.
 
